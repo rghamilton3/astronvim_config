@@ -1,6 +1,7 @@
 # <img alt="AstroNvim Logo" src="https://astronvim.com/logo/astronvim.svg" width="36px" /> AstroNvim Configuration
 
-**NOTE:** This is for AstroNvim v4+
+> [!NOTE]
+> This is for AstroNvim v4+
 
 See [AstroNvim Docs](https://docs.astronvim.com) for more information.
 
