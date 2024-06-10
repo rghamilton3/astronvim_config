@@ -1,0 +1,20 @@
+{
+  "Eloquent belongsTo": {
+    "prefix": ["belongsTo"],
+    "body": [
+      "public function ${1}(): BelongsTo",
+      "{",
+      "\treturn \\$this->belongsTo(${1/(.)/${1:/capitalize}/}::class);",
+      "}"
+    ]
+  },
+  "Eloquent hasMany": {
+    "prefix": ["hasMany"],
+    "body": [
+      "public function ${1}s(): HasMany",
+      "{",
+      "\treturn \\$this->hasMany(${1/(.)/${1:/capitalize}/}::class);",
+      "}"
+    ]
+  }
+}
