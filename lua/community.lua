@@ -9,7 +9,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
 
-  { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.completion.codeium-nvim" },
 
   { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
